@@ -1,0 +1,24 @@
+<h1>Philips Coding Exercise</h1>
+<p>
+  We have an array of Marvel movies in a file, <code>movies.ts</code>, and we
+  would like for you to:
+</p>
+<ul>
+  <li>Create a service that returns the movies as an Observable</li>
+  <li>
+    Create a <code>movie</code> component that displays the movie information
+    (title and release year)
+  </li>
+  <li>
+    Using the <code>movie</code> component, list all movies sorted by release
+    year
+  </li>
+</ul>
+
+<h1>Marvel Movies</h1>
+<p>List goes here.</p>
+
+<ul *ngFor="let movie for moviesListForDisplay">
+  <li>movie.title</li>
+  <li>movie.releaseYear</li>
+</ul>
